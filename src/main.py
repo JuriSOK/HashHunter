@@ -3,7 +3,7 @@ from hash_cracker import brute_force_wordlist, brute_force_generate
 from utils import check_hibp
 
 def main():
-    parser = argparse.ArgumentParser(description="HashCrackSuite - Casseur de hash")
+    parser = argparse.ArgumentParser(description="HashHunter")
     
     parser.add_argument("-m", "--mode", type=str, choices=["wordlist", "bruteforce", "hibp"], required=True,
                         help="Mode : wordlist (dictionnaire), bruteforce (génération) ou hibp (vérification fuite)")
